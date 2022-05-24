@@ -1,13 +1,11 @@
 :root {
-    --font: sans-serif;
-
     --black: #1b1b1b;
     --white: #ffffff;
     --green: #568821;
 }
 
 html * {
-    font-family: var(--font);
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
