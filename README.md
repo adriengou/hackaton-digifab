@@ -21,3 +21,6 @@ Dans le fichier "global.css", tout au début:
 --green: #568821;
 
 Il faut changer les couleurs comme au dessus.
+
+
+## Les images aléatoire viennent de lorem picsum.
