@@ -1,0 +1,112 @@
+:root {
+    --black: #1b1b1b;
+    --white: #ffffff;
+    /* --green: #568821; */
+    --green: #72B62B
+}
+
+html,
+body,
+p,
+h1,
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html * {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* --------------------Enzo----------------------- */
+
+.body {
+  width: 100wh;
+  height: 100wh;
+  background-color: black;
+}
+
+
+.pagetotal{
+    padding: 100px 0 0 0;
+}
+
+.Transport h1{
+text-align: center;
+padding: 50px;
+
+}
+
+
+p {
+  display: flex;
+  justify-content: end;
+  margin-right: 20%;
+  /* margin-top: 2%; */
+  font-family: "Barlow", sans-serif;
+  color: #1b1b1b;
+}
+
+.photo_profil {
+  margin-left: auto;
+  margin-right: 30px;
+  display: flex;
+  justify-content: end;
+  width: 50px;
+  height: 50px;
+}
+
+.Transport {
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.Icon_vehicules {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 6Opx;
+  height: 60px;
+}
+.Icon_vehicules img {
+  border: solid #1b1b1b;
+  border-radius: 8%;
+  padding: 5px;
+  background-color: #f5f5f5;
+}
+.Wallet {
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 25px;
+  display: flex;
+  height: 30px;
+  width: 90px;
+  border-radius: 8%;
+  background-color: #72b62b;
+}
+
+.trajets1,
+.trajets2,
+.trajets3,
+.trajets4 {
+  font-family: "Barlow", sans-serif;
+  margin-left: 190px;
+  margin-top: ;
+  border-bottom: solid white 6px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 70%;
+  height: 30px;
+  background-color: #72b62b;
+}
+
+.Token8 {
+}

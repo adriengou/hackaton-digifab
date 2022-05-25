@@ -1,0 +1,174 @@
+:root {
+    --black: #1b1b1b;
+    --white: #ffffff;
+    /* --green: #568821; */
+    --green: #72B62B
+}
+
+html,
+body,
+p,
+h1,
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html * {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* --------------------Fouad et Sarah----------------------- */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-color: var(--white);
+    background: var(--white);
+    padding: auto;
+}
+
+.pagefull {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.contenugauche {
+    padding: 20px;
+
+}
+
+.contenudroite {
+    padding: 20px;
+
+}
+
+
+/* ______________________Titre______________________ */
+
+.titre {
+    text-align: center;
+    font-size: 30px;
+    padding: 8% 0 30px 0;
+    color: var(--green);
+}
+
+/* ______________________pagefull______________________ */
+
+/* ______________________H2______________________ */
+.Bloc1 h2 {
+    color: var(--black);
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+
+/* ______________________ contenugauche______________________ */
+.contenugauche h3 {
+    color: var(--white);
+    background-color: var(--green);
+    padding: 1%;
+    /* border-radius: 2px; */
+}
+
+/* ______________________  P ______________________ */
+.contenugauche p {
+    text-align: justify;
+
+}
+
+/* ______________________textimg bloc 1 et 3______________________ */
+.textimg {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textimg p {
+    margin: 0 20px 0 0px;
+}
+
+.textimg img {
+    width: 140px;
+}
+
+
+/* ______________________textimg bloc 2______________________ */
+.textimg2 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.textimg2 p {
+    margin: 0 0 0 20px;
+
+}
+
+.textimg2 img {
+    width: 140px;
+}
+
+.contenugauche .Bloc2 h3 {
+    text-align: right;
+
+}
+
+
+
+/* ______________________contenudroite______________________ */
+
+.contenudroite .textdroit p {
+    color: var(--black);
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 0 0 10px;
+}
+
+.contenudroite h3{
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+
+
+.contenudroite .formbx{
+    /* padding: 0 0 0 0; */
+    width: 100%;
+
+}
+.contenudroite .formbx .form_signupForm{
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.contenudroite .formbx .form_signupForm input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    /* border-radius: 20px; */
+
+}
+
+.formbx {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--white);
+    justify-content: center;
+    align-items: center;
+
+}

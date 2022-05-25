@@ -1,0 +1,158 @@
+:root {
+    --black: #1b1b1b;
+    --white: #ffffff;
+    /* --green: #568821; */
+    --green: #72B62B
+}
+
+html,
+body,
+p,
+h1,
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html * {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* --------------------Fouad et Sarah----------------------- */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-color: var(--white);
+    background: var(--white);
+    padding: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.container .connectez-vous {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+ }
+
+.container .iscrivez-vous {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 100px 0 0 0;
+}
+
+
+/* ______________________connectez-vous______________________ */
+
+
+.connectez-vous .box_signin h2 {
+    color: var(--green);
+    font-size: 40px;
+    padding: 0 0 0px 30PX
+}
+
+.connectez-vous .formbx {
+    padding: 30px;
+    width: 100%;
+
+}
+
+.connectez-vous .formbx .form_signinForm {
+    left: 0;
+    width: 100%;
+    padding: 0px;
+
+}
+
+.connectez-vous .formbx .form {
+    padding: 20px;
+}
+
+.connectez-vous .formbx .form_signinForm input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+
+.connectez-vous .formbx .form_signinForm  form input .Button{
+    cursor: pointer;
+}
+
+/* _______________________inscrivez-vous_____________________ */
+
+.iscrivez-vous .box_signup h2 {
+    color: var(--green);
+    font-size: 40px;
+    padding: 0 0 0 30PX
+}
+
+.iscrivez-vous .formbx {
+    padding: 30px;
+    width: 100%;
+
+}
+
+.iscrivez-vous .formbx .form_signupForm {
+    left: 0;
+    width: 100%;
+    padding: 0px;
+
+}
+
+.iscrivez-vous .formbx .form {
+    padding: 20px;
+}
+
+.iscrivez-vous .formbx .form_signupForm input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+
+/* ____________________________________________ */
+.formbx {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--white);
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ____________________________________________ */
+
+
+
+/* ____________________________________________ */
+
+
+/* ____________________________________________ */
+
+/* ____________________________________________ */

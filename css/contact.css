@@ -1,0 +1,100 @@
+:root {
+    --black: #1b1b1b;
+    --white: #ffffff;
+    /* --green: #568821; */
+    --green: #72B62B
+}
+
+html * {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body,
+p,
+h1,
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------------Fouad et Sarah----------------------- */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-color: var(--white);
+    background: var(--white);
+    padding: auto;
+}
+.ecrivez-nous{
+    padding: 10%;
+}
+
+.ecrivez-nous h1 {
+    color: var(--green);
+    font-size: 40px;
+    padding: 0 0 0 30PX
+}
+
+.ecrivez-nous .formbx {
+    padding: 30px;
+    width: 100%;
+
+}
+
+.ecrivez-nous .formbx .form_signupForm {
+    left: 0;
+    width: 100%;
+    padding: 0px;
+
+}
+
+.ecrivez-nous .formbx .form {
+    padding: 20px;
+}
+
+.ecrivez-nous .formbx .form_signupForm input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.form_signupForm .msg{
+    height: 300px;
+}
+
+.flexform input{
+    width: 50%;
+}
+
+.flexform{
+    display: flex;
+    flex-direction: row;
+}
+
+.np{
+    width: 50%;
+    margin: 0 5px 0 0;
+}
+.et{
+    width: 50%;
+    margin: 0 0 0 5px;
+}
+.formbx {
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--white);
+    justify-content: center;
+    align-items: center;
+}

@@ -1,7 +1,8 @@
 :root {
     --black: #1b1b1b;
     --white: #ffffff;
-    --green: #568821;
+    /* --green: #568821; */
+    --green: #72B62B
 }
 
 html * {
@@ -20,10 +21,16 @@ h2 {
     box-sizing: border-box;
 }
 
+header{     
+    top: 0;     
+    background-color: var(--white);     
+    position: fixed;     
+    z-index: 1000000; 
+}
+
 .nav {
 
 
-    position: fixed;
     width: 95vw;
     top: 0;
     margin: 20px 50px;
@@ -34,13 +41,15 @@ h2 {
     align-items: center;
 
     font-size: 1.5rem;
-    color: var(--green);
+    /* color: var(--green); */
+    color: var(--black);
     font-weight: bold;
     z-index: 1000;
 }
 
 .nav a {
-    color: var(--green);
+    /* color: var(--green); */
+    color: var(--black);
     text-decoration: none;
 }
 
